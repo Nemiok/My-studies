@@ -171,6 +171,13 @@ button {
   background-color: var(--white-color);
 }
 
+.header__wrapper {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  min-height: 100px;
+}
 
 .header__logo:focus {
   outline: 2px solid var(--color-for-most-of-hovers);
@@ -192,15 +199,6 @@ button {
   width: 45px;
   height: 45px;
 }
-
-.header__wrapper {
-  position: relative;
-  display: flex;
-  flex-shrink: 0;
-  align-items: center;
-  min-height: 100px;
-}
-
 
 .header__burger-menu {
   position: absolute;
