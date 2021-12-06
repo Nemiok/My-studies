@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   const swiper = new Swiper('.swiper', {
-  speed: 400,
+  speed: 800,
 /*   autoHeight: true, */
   direction: "horizontal",
   initialSlide: 0,
   slidesPerView: 1,
+  slidesPerGroup: 1,
 
   pagination: {
     clickable: true,
@@ -17,6 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
     prevEl: '.swiper-button-prev',
 
   },
+
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+},
 
 });
 
