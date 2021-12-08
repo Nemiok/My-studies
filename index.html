@@ -28,11 +28,13 @@
           </svg>
         </button>
 
-        <div class="header__burger-menu">
-          <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="2.09094" width="29.5699" height="2.95699" transform="rotate(45 2.09094 0)" fill="#333333" />
-            <rect y="20.9092" width="29.5699" height="2.95699" transform="rotate(-45 0 20.9092)" fill="#333333" />
-          </svg>
+        <div class="header__burger-menu disabled">
+          <button class="burger-menu__button-closed">
+            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2.09094" width="29.5699" height="2.95699" transform="rotate(45 2.09094 0)" fill="#333333" />
+              <rect y="20.9092" width="29.5699" height="2.95699" transform="rotate(-45 0 20.9092)" fill="#333333" />
+            </svg>
+          </button>
           <nav>
             <ul class="burger__nav-list">
               <li class="burger__nav-list-item"><a href="#">О нас</a></li>
@@ -471,7 +473,7 @@
       <div class="footer__block-left">
         <a class="footer__logo" href="#">
           <picture>
-            <source srcset="img/logo-footer_320.svg" media="(max-width: 365px">
+            <source srcset="img/logo-footer_320.svg" media="(max-width: 365px)">
             <img src="img/Logo-footer.svg" alt="Логотип Евклид">
           </picture>
         </a>
@@ -573,6 +575,7 @@
   <script src="tabs.js"></script>
   <script src="accordion.js"></script>
   <script src="searchBox.js"></script>
+  <script src="burger.js"></script>
 </body>
 
 </html>
