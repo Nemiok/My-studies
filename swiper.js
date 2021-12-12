@@ -24,6 +24,14 @@ document.addEventListener("DOMContentLoaded", function () {
     disableOnInteraction: false,
 },
 
+a11y: {
+  prevSlideMessage: 'Предыдущий слайд',
+  nextSlideMessage: 'Следующий слайд',
+  firstSlideMessage: 'Первый слайд',
+  lastSlideMessage: 'Последний слайд',
+  paginationBulletMessage: 'Пагинации',
+},
+
 });
 
 });
